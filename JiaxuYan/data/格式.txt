@@ -1,0 +1,27 @@
+{
+    θ1:
+        ['SuperCell边长', 'SuperCell边中垂线', 'SuperCell的重复度', '重复度ratio',
+            [   [num, distance1, arrowLength1, atoms],
+                [num, distance2,arrowLength2, atoms],
+                [num, distance3, arrowLength3, atoms],
+                ```
+            ]
+        ]  # 正六边形边长等于角心距
+    θ2:
+        ['SuperCell边长', 'SuperCell边中垂线', 'SuperCell的重复度', '重复度ratio',
+            [   [distance1, arrowLength1, atoms],
+                [distance2,arrowLength2, atoms],
+                [distance3, arrowLength3, atoms],
+                ```
+            ]
+        ]
+    θ3:
+        ['SuperCell边长', 'SuperCell边中垂线', 'SuperCell的重复度', '重复度ratio',
+            [   [distance1, arrowLength1, atoms],
+                [distance2,arrowLength2, atoms],
+                [distance3, arrowLength3, atoms],
+                ```
+            ]
+        ]
+        ```
+}

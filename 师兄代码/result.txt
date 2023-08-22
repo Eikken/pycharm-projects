@@ -1,0 +1,10 @@
+1	ab	Q	
+2	cd	W	
+3	dcc	E	
+4	e	R	
+5	f	A	
+6	g	S	
+7	h	D	
+8	i	F	
+9	j	Z	
+10	k	X	

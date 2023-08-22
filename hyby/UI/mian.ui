@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>793</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>黑体</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>模拟计算二维转角异质结体系重叠度软件</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/Celeste/Pictures/icon.ico</normaloff>C:/Users/Celeste/Pictures/icon.ico</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1000</width>
+     <height>750</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="tol_wgt1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>299</x>
+      <y>0</y>
+      <width>691</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <widget class="QLineEdit" name="tol_wgt1_size">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>160</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>161</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="tol_wgt1_lbl1">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>160</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>121</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>输入扩胞大小:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="tol_wgt1_btn">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>160</y>
+       <width>71</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>71</width>
+       <height>41</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>提交</string>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="tol_wgt1_tip">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>450</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>450</width>
+       <height>110</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'黑体','黑体'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;参考样式提示&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;输入参数‘50’即可选择生成50X50扩胞，默认为20X20（计算机算力与图形展示有限，16GB运存以下建议输入180X180以内的参数）。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="info_wgt" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>291</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="lbl_tip1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>380</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>110</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>浮点数角度：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="edt_angle">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>380</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>140</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>360</y>
+       <width>261</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_infoshow">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>35</y>
+       <width>150</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>130</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>160</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string> 信息面板</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_showInfo">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>450</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>70</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>3ds</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>展示</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="text_area1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>260</width>
+       <height>260</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>260</width>
+       <height>260</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>等线</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'等线','黑体'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'SimSun'; font-size:12pt; color:#000000;&quot;&gt;输入您需要的角度来展示&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'SimSun'; font-size:12pt; color:#000000;&quot;&gt;或使用&lt;/span&gt;&lt;span style=&quot; font-family:'SimSun'; font-size:12pt; text-decoration: underline; color:#000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'SimSun'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;工具&lt;/span&gt;&lt;span style=&quot; font-family:'SimSun'; font-size:12pt; font-weight:600; font-style:italic; text-decoration: underline; color:#000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'SimSun'; font-size:12pt; color:#000000;&quot;&gt;来设定相关参数(当前为Graphene模式)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="file_wgt" native="true">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>310</y>
+      <width>691</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <widget class="QTextBrowser" name="text_area2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>690</width>
+       <height>370</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>690</width>
+       <height>370</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>3ds</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'3ds','黑体'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'等线','黑体'; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="file_close_btn">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>10</y>
+       <width>75</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>75</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>关闭</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>info_wgt</zorder>
+   <zorder>tol_wgt1</zorder>
+   <zorder>file_wgt</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <property name="nativeMenuBar">
+    <bool>true</bool>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件 </string>
+    </property>
+    <addaction name="act_createfile"/>
+    <addaction name="act_openfile"/>
+    <addaction name="act_savefile"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>工具 </string>
+    </property>
+    <widget class="QMenu" name="menu_4">
+     <property name="title">
+      <string>选择材料</string>
+     </property>
+     <widget class="QMenu" name="menu_5">
+      <property name="title">
+       <string>材料随版本更新</string>
+      </property>
+      <addaction name="act_forbid"/>
+     </widget>
+     <addaction name="act_graphene"/>
+     <addaction name="act_BN"/>
+     <addaction name="act_MoS2"/>
+     <addaction name="separator"/>
+     <addaction name="menu_5"/>
+    </widget>
+    <addaction name="act_param"/>
+    <addaction name="act_run"/>
+    <addaction name="act_debug"/>
+    <addaction name="menu_4"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>关于 </string>
+    </property>
+    <addaction name="act_mail"/>
+    <addaction name="act_version"/>
+    <addaction name="act_tips"/>
+    <addaction name="act_log"/>
+    <addaction name="act_exit"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="act_createfile">
+   <property name="text">
+    <string>创建文件</string>
+   </property>
+  </action>
+  <action name="act_openfile">
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+  </action>
+  <action name="act_savefile">
+   <property name="text">
+    <string>保存文件</string>
+   </property>
+  </action>
+  <action name="act_run">
+   <property name="text">
+    <string>运行</string>
+   </property>
+  </action>
+  <action name="act_debug">
+   <property name="text">
+    <string>调试</string>
+   </property>
+  </action>
+  <action name="act_version">
+   <property name="text">
+    <string>版本</string>
+   </property>
+  </action>
+  <action name="act_exit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="iconText">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="act_param">
+   <property name="text">
+    <string>参数设置</string>
+   </property>
+  </action>
+  <action name="act_tips">
+   <property name="text">
+    <string>提示</string>
+   </property>
+  </action>
+  <action name="act_mail">
+   <property name="text">
+    <string>联系</string>
+   </property>
+  </action>
+  <action name="act_graphene">
+   <property name="text">
+    <string>Graphene</string>
+   </property>
+  </action>
+  <action name="act_BN">
+   <property name="text">
+    <string>BN</string>
+   </property>
+  </action>
+  <action name="act_MoS2">
+   <property name="text">
+    <string>MoS2</string>
+   </property>
+  </action>
+  <action name="act_forbid">
+   <property name="text">
+    <string>此项不可选择</string>
+   </property>
+  </action>
+  <action name="act_log">
+   <property name="text">
+    <string>系统日志</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

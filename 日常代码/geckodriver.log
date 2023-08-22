@@ -1,0 +1,436 @@
+1648954269194	geckodriver	INFO	Listening on 127.0.0.1:11414
+1648954468550	geckodriver	INFO	Listening on 127.0.0.1:12023
+1648954786679	geckodriver	INFO	Listening on 127.0.0.1:13171
+1648954789689	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile066Q0r"
+1648955037569	geckodriver	INFO	Listening on 127.0.0.1:14004
+1648955040581	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofilemK8Pdm"
+1648955040993	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofilemK8Pdm\\search.json.mozlz4", (void 0)))
+1648955043359	Marionette	INFO	Listening on port 14023
+1648955043807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648955054402	Marionette	INFO	Stopped listening on port 14023
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1648955300644	geckodriver	INFO	Listening on 127.0.0.1:14823
+1648955303633	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileD1fSRC"
+1648955304153	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileD1fSRC\\search.json.mozlz4", (void 0)))
+1648955306541	Marionette	INFO	Listening on port 14838
+1648955306792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=1623CC378FE07BEA439FC5926DB1095A.TomcatB, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+1648955310414	Marionette	INFO	Stopped listening on port 14838
+1648955360875	geckodriver	INFO	Listening on 127.0.0.1:1134
+1648955363914	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofilesRt6ii"
+1648955364379	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofilesRt6ii\\search.json.mozlz4", (void 0)))
+1648955366730	Marionette	INFO	Listening on port 1149
+1648955367075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=FF7B66F95C8BF451F5171B3F09F41959.TomcatC, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1648955474418	Marionette	INFO	Stopped listening on port 1149
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofileCnNijV\\search.json.mozlz4", (void 0)))
+1648955462354	Marionette	INFO	Listening on port 1542
+1648955462720	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=5380BC04F3FF9332438E33CB539FF4CA.TomcatC, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1648955473361	Marionette	INFO	Stopped listening on port 1542
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648955718621	geckodriver	INFO	Listening on 127.0.0.1:2488
+1648955721605	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofilegY6S0m"
+1648955722226	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofilegY6S0m\\search.json.mozlz4", (void 0)))
+1648955726291	Marionette	INFO	Listening on port 2505
+1648955726417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=24F880523C8ECCBF08D02C30DB8ACD1E.TomcatB, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1648955739480	Marionette	INFO	Stopped listening on port 2505
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648955759164	geckodriver	INFO	Listening on 127.0.0.1:2704
+1648955762173	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileIOchxM"
+1648955762705	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileIOchxM\\search.json.mozlz4", (void 0)))
+1648955765958	Marionette	INFO	Listening on port 2719
+1648955766355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=BD3DD8F7665D08A02A14450A9867E774.TomcatC, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1648955869326	Marionette	INFO	Stopped listening on port 2719
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648955873132	geckodriver	INFO	Listening on 127.0.0.1:3164
+1648955876147	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileqi7SA9"
+1648955876687	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileqi7SA9\\search.json.mozlz4", (void 0)))
+1648955880082	Marionette	INFO	Listening on port 3181
+1648955880327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=A77F2F78201635E2CDC25B175ABD0F0D.TomcatC, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1648955958753	Marionette	INFO	Stopped listening on port 3181
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648955967701	geckodriver	INFO	Listening on 127.0.0.1:3556
+1648955970732	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile9Nf4Be"
+1648955971409	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile9Nf4Be\\search.json.mozlz4", (void 0)))
+1648955974697	Marionette	INFO	Listening on port 3570
+1648955974909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=93B0E8B99EF3F74C6D3C12F0D5DDB6BA.TomcatB, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1648956172661	Marionette	INFO	Stopped listening on port 3570
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideSer1648956173328	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofilerIsMdf\\search.json.mozlz4", (void 0)))
+1648956175244	Marionette	INFO	Listening on port 4354
+1648956175312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648956203718	Marionette	INFO	Stopped listening on port 4354
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1650013857062	geckodriver	INFO	Listening on 127.0.0.1:1974
+1650013860135	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile0psD5R"
+1650013862528	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile0psD5R\\search.json.mozlz4", (void 0)))
+1650013865458	Marionette	INFO	Listening on port 1986
+1650013865596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+1650013935893	Marionette	INFO	Stopped listening on port 1986
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1650013949555	geckodriver	INFO	Listening on 127.0.0.1:2238
+1650013952598	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile5p8Btg"
+1650013953033	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile5p8Btg\\search.json.mozlz4", (void 0)))
+1650013955543	Marionette	INFO	Listening on port 2248
+1650013955762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+1650014080198	Marionette	INFO	Stopped listening on port 2248
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1650014314529	geckodriver	INFO	Listening on 127.0.0.1:2892
+1650014317595	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileZGFZVi"
+1650014318046	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileZGFZVi\\search.json.mozlz4", (void 0)))
+1650014320341	Marionette	INFO	Listening on port 2905
+1650014320794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+1650014381773	Marionette	INFO	Stopped listening on port 2905
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+earchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileT8UvKA\\search.json.mozlz4", (void 0)))
+1650014366129	Marionette	INFO	Listening on port 3120
+1650014366462	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+1650014369849	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1650014379948	Marionette	INFO	Stopped listening on port 3120
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1650014386780	geckodriver	INFO	Listening on 127.0.0.1:3289
+1650014389821	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileYPN78e"
+1650014390283	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileYPN78e\\search.json.mozlz4", (void 0)))
+1650014392536	Marionette	INFO	Listening on port 3300
+1650014392996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+1650014396221	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1650014451003	geckodriver	INFO	Listening on 127.0.0.1:3504
+1650014454067	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileLMNb7U"
+1650014454531	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileLMNb7U\\search.json.mozlz4", (void 0)))
+1650014457002	Marionette	INFO	Listening on port 3515
+1650014457272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+1650014468252	Marionette	INFO	Stopped listening on port 3515
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1650014598026	geckodriver	INFO	Listening on 127.0.0.1:3827
+1650014601113	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile0hvFOn"
+1650014601831	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile0hvFOn\\search.json.mozlz4", (void 0)))
+1650014604495	Marionette	INFO	Listening on port 3838
+1650014604798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1650014616405	Marionette	INFO	Stopped listening on port 3838
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1650014635883	geckodriver	INFO	Listening on 127.0.0.1:3999
+1650014638916	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileHLGDZj"
+1650014639384	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileHLGDZj\\search.json.mozlz4", (void 0)))
+1650014641704	Marionette	INFO	Listening on port 4009
+1650014642124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8080"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1650015013226	Marionette	INFO	Stopped listening on port 4009
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofiletBf4GZ\\search.json.mozlz4", (void 0)))
+1650014894812	Marionette	INFO	Listening on port 4475
+1650014895220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+1650014904660	Marionette	INFO	Stopped listening on port 4475
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1650015048079	geckodriver	INFO	Listening on 127.0.0.1:4723
+1650015051130	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileQ57Pes"
+1650015051554	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileQ57Pes\\search.json.mozlz4", (void 0)))
+1650015053861	Marionette	INFO	Listening on port 4736
+1650015054321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=CF075E45692230CF6B40D14AE3272231.TomcatC, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1650015064406	Marionette	INFO	Stopped listening on port 4736
+1650015816568	geckodriver	INFO	Listening on 127.0.0.1:6369
+1650015819616	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileU0mL9p"
+1650015820519	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileU0mL9p\\search.json.mozlz4", (void 0)))
+1650015823361	Marionette	INFO	Listening on port 6381
+1650015823833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=72ACA87FE9B7B744B3B9F5F4EAB9EF75.TomcatB, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1650015843215	Marionette	INFO	Stopped listening on port 6381
+1650015917834	geckodriver	INFO	Listening on 127.0.0.1:6612
+1650015920866	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile1oUrUV"
+1650015921438	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofile1oUrUV\\search.json.mozlz4", (void 0)))
+1650015924499	Marionette	INFO	Listening on port 6620
+1650015924610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=EA71A3A4EBDAFBA07D7D283B1AD52524.TomcatB, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.error: services.settings: 
+  main/partitioning-exempt-urls local data was corrupted
+console.warn: services.settings: main/partitioning-exempt-urls Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed again InvalidSignatureError: Invalid content signature (main/partitioning-exempt-urls)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1650015940436	Marionette	INFO	Stopped listening on port 6620
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1650016251406	geckodriver	INFO	Listening on 127.0.0.1:7137
+1650016254484	mozrunner::runner	INFO	Running command: "F:\\firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileYdbtok"
+1650016254952	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Celeste\\AppData\\Local\\Temp\\rust_mozprofileYdbtok\\search.json.mozlz4", (void 0)))
+1650016257340	Marionette	INFO	Listening on port 7145
+1650016257677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://u.njtech.edu.cn/cas/js/jquery-1.9.1.min.js;jsessionid=DBCEC36EECA4353FC5071C8DFB56DA59.TomcatB, line 17: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://u.njtech.edu.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1650016304303	Marionette	INFO	Stopped listening on port 7145
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

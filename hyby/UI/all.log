@@ -1,0 +1,69 @@
+2021-10-14 20:15:21,038 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:350] - DEBUG: debug
+2021-10-14 20:15:21,038 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:351] - INFO: info
+2021-10-14 20:15:21,039 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:352] - WARNING: 警告
+2021-10-14 20:15:21,040 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:353] - ERROR: 报错
+2021-10-14 20:15:21,040 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:354] - CRITICAL: 严重
+2021-10-14 20:20:33,873 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:353] - WARNING: 警告
+2021-10-14 20:20:33,874 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:354] - ERROR: 报错
+2021-10-14 20:20:33,883 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:355] - CRITICAL: 严重
+2021-10-14 20:21:02,430 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:301] - DEBUG: 
+
+2021-10-14 20:21:02,437 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:124] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:21:44,207 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:302] - DEBUG: 
+
+2021-10-14 20:21:44,215 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:125] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:22:11,537 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:302] - DEBUG: 
+
+2021-10-14 20:22:11,541 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:125] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:23:33,323 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:302] - DEBUG: 
+
+2021-10-14 20:23:33,327 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:125] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:24:01,771 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:300] - DEBUG: 
+
+2021-10-14 20:24:01,775 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:125] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:25:10,282 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:300] - DEBUG: 
+
+2021-10-14 20:25:10,289 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:125] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:25:10,358 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:118] - INFO: 5040.0060    77.5848    766.5807344131427
+2021-10-14 20:26:14,108 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:300] - DEBUG: 
+
+2021-10-14 20:26:14,116 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:125] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:26:14,130 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:142] - INFO: update_figure 13.000 20
+2021-10-14 20:26:14,181 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:118] - INFO: 5040.0060    77.5848    766.5807344131427
+2021-10-14 20:26:52,649 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:300] - DEBUG: 
+
+2021-10-14 20:26:52,652 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:335] - DEBUG: figSize: 10  500
+2021-10-14 20:26:52,652 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:125] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:26:52,670 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:142] - INFO: update_figure 13.000 20
+2021-10-14 20:26:52,721 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:118] - INFO: 5040.0060    77.5848    766.5807344131427
+2021-10-14 20:28:45,887 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:334] - DEBUG: figSize: 10  500
+2021-10-14 20:28:45,888 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:125] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:28:45,905 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:142] - DEBUG: update_figure 13.000 20
+2021-10-14 20:28:45,957 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:118] - INFO: 5040.0060    77.5848    766.5807344131427
+
+2021-10-14 20:36:24,082 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:300] - DEBUG: input angle 13.000
+2021-10-14 20:36:24,104 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:336] - DEBUG: figSize: 10  500
+2021-10-14 20:36:24,104 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:125] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:36:24,120 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:142] - DEBUG: update_figure 13.000 20
+2021-10-14 20:36:24,167 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:118] - INFO: 5040.0060    77.5848    766.5807344131427
+
+2021-10-14 20:36:32,664 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:275] - DEBUG: input cell size 30X30
+2021-10-14 20:36:42,225 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:300] - DEBUG: input angle 13.170
+2021-10-14 20:36:42,228 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:336] - DEBUG: figSize: 15  750
+2021-10-14 20:36:42,228 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:125] - DEBUG: MyStaicMplCanvas init
+2021-10-14 20:36:42,241 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:142] - DEBUG: update_figure 13.170 30
+2021-10-14 20:36:42,318 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:118] - INFO: 11800.0600    181.6469    9129.21222247276
+
+2021-10-14 21:11:42,217 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:843] - DEBUG: input angle 13.170
+2021-10-14 21:11:42,280 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:879] - DEBUG: figSize: 10  500
+2021-10-14 21:11:42,280 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:654] - DEBUG: MyStaicMplCanvas init
+2021-10-14 21:11:42,296 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:671] - DEBUG: update_figure 13.170 20
+2021-10-14 21:11:42,348 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:647] - INFO: 5040.0240    77.5848    3667.7889308296
+
+2021-10-14 21:11:48,169 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:818] - DEBUG: input cell size 20X20
+2021-10-14 21:12:07,578 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:843] - DEBUG: input angle 13.170
+2021-10-14 21:12:07,580 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:879] - DEBUG: figSize: 10  500
+2021-10-14 21:12:07,580 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:654] - DEBUG: MyStaicMplCanvas init
+2021-10-14 21:12:07,595 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:671] - DEBUG: update_figure 13.170 20
+2021-10-14 21:12:07,648 - D:/Celeste/PycharmProjects/hyby/UI/load_main.py[line:647] - INFO: 5040.0240    77.5848    3667.7889308296
+

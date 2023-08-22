@@ -1,0 +1,160 @@
+request : https://i.njtech.edu.cn/app/profile/data?
+          accountKey=XGH&
+          accountValue=202061222199&
+          uri=open_api/customization/vrhmhcsrq/list
+
+response :
+        {
+            "result":{
+                "total":1,
+                "data":[
+                    {
+                        "CSRQ":"1998-01-21",
+                        "XM":"\u6768\u6653\u4f1f",
+                        "XGH":"202061222199",
+                        "RN":1
+                    }
+                ],
+                "data_struct":[
+
+                ],
+                "page":1,
+                "max_page":1,
+                "per":10
+            },
+            "code":"1000",
+            "description":"api\u8bf7\u6c42\u6210\u529f",
+            "message":"ok",
+            "uuid":"2f05d791e3c24db6ae64e08dce79c8e1"
+        }
+
+Cookie : {
+            Ecp_ClientId=8210730223901415043;
+            ajs_anonymous_id=983149bd-2777-4f53-8fe7-170382543bd2;
+            _ga=GA1.3.1303491502.1627666987; MAID=qyovJrPdJKPDzEO2VTt4XQ==;
+            MACHINE_LAST_SEEN=2021-07-30T10:57:42.877-07:00;
+                AMCV_1B6E34B85282A0AC0A490D44@AdobeOrg=-1124106680|MCIDTS|18839|MCMID
+                |41767119866068626994379255134661567947|MCAAMLH-1628272667|9|MCAAMB-1628272667
+                |RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y|MCOPTOUT-1627675067s
+                |NONE|MCAID|NONE|vVersion|5.2.0;
+            __ocgt=af6409c64b3db325857198772b6d2a323ddb94c536e3191d97d4dea6b6bea231;
+            HMACCOUNT=C9827C2761154E53;
+            Hm_lvt_7c8d4ea3d0b2ffb2df0daf73aa53c1e0=1649241293,1649493133,1650015087,1650016477;
+            Drupal.visitor.ascloud_code=9e48e2908363e53d467ee11b17cf563e;
+            SESSd29ddc6157f6c30cc169dbaa241c00d5=slHWnREwiutGBggfxuB9hBnht80xTXzYutJV6-XGK6g;
+            Hm_lpvt_7c8d4ea3d0b2ffb2df0daf73aa53c1e0=1650019100
+         }
+
+
+
+request : https://i.njtech.edu.cn/app/profile/data?
+          accountKey=XGH&
+          accountValue=202061122133&
+          uri=open_api/customization/vrhmhcsrq/list
+
+response :
+        {
+            "result":{
+                "total":1,
+                "data":[
+                    {
+                        "CSRQ":"1998-01-16",
+                        "XM":"\u9f99\u6587\u79c0",
+                        "XGH":"202061122133",
+                        "RN":1
+                    }
+                ],
+                "data_struct":[
+
+                ],
+                "page":1,
+                "max_page":1,
+                "per":10
+            },
+            "code":"1000",
+            "description":"api\u8bf7\u6c42\u6210\u529f",
+            "message":"ok",
+            "uuid":"2f05d791e3c24db6ae64e08dce79c8e1"
+        }
+Cookie : {  # lwx
+            Ecp_ClientId=8210730223901415043;
+            ajs_anonymous_id=983149bd-2777-4f53-8fe7-170382543bd2;
+            _ga=GA1.3.1303491502.1627666987;
+            MAID=qyovJrPdJKPDzEO2VTt4XQ==;
+            MACHINE_LAST_SEEN=2021-07-30T10:57:42.877-07:00;
+            AMCV_1B6E34B85282A0AC0A490D44@AdobeOrg=-1124106680|MCIDTS|18839|MCMID
+                |41767119866068626994379255134661567947|MCAAMLH-1628272667|9|MCAAMB-1628272667
+                |RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y|MCOPTOUT-1627675067s
+                |NONE|MCAID|NONE|vVersion|5.2.0;
+            __ocgt=af6409c64b3db325857198772b6d2a323ddb94c536e3191d97d4dea6b6bea231;
+            HMACCOUNT=C9827C2761154E53;
+            Hm_lvt_7c8d4ea3d0b2ffb2df0daf73aa53c1e0=1649241293,1649493133,1650015087,1650016477;
+            Drupal.visitor.ascloud_code=9e48e2908363e53d467ee11b17cf563e;
+            SESSd29ddc6157f6c30cc169dbaa241c00d5=f7mWS78-EqPqs5M8iLGmw596nmdRTsr8mhoo5YhT6q4;
+            Hm_lpvt_7c8d4ea3d0b2ffb2df0daf73aa53c1e0=1650020864
+         }
+Cookie : {  # yxw
+            Ecp_ClientId=8210730223901415043;
+            ajs_anonymous_id=983149bd-2777-4f53-8fe7-170382543bd2;
+            _ga=GA1.3.1303491502.1627666987;
+            MAID=qyovJrPdJKPDzEO2VTt4XQ==;
+            MACHINE_LAST_SEEN=2021-07-30T10:57:42.877-07:00;
+            AMCV_1B6E34B85282A0AC0A490D44@AdobeOrg=-1124106680|MCIDTS|18839|MCMID
+                |41767119866068626994379255134661567947|MCAAMLH-1628272667|9|MCAAMB-1628272667
+                |RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y|MCOPTOUT-1627675067s
+                |NONE|MCAID|NONE|vVersion|5.2.0;
+            __ocgt=af6409c64b3db325857198772b6d2a323ddb94c536e3191d97d4dea6b6bea231;
+            HMACCOUNT=C9827C2761154E53;
+            Hm_lvt_7c8d4ea3d0b2ffb2df0daf73aa53c1e0=1649241293,1649493133,1650015087,1650016477;
+            Drupal.visitor.ascloud_code=9e48e2908363e53d467ee11b17cf563e;
+            SESSd29ddc6157f6c30cc169dbaa241c00d5=slHWnREwiutGBggfxuB9hBnht80xTXzYutJV6-XGK6g;
+            Hm_lpvt_7c8d4ea3d0b2ffb2df0daf73aa53c1e0=1650019100
+         }
+
+
+headers = {
+    'Accept': '*/*',
+    'Connection': 'keep-alive',
+    'Accept-Language': 'zh-CN,zh;q=0.9',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Host': 'i.njtech.edu.cn',
+    'Referer': 'https://i.njtech.edu.cn/personal/center',
+    'X-Requested-With': 'XMLHttpRequest',
+    'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36',
+    'Cookie': 'Ecp_ClientId=8210730223901415043; ajs_anonymous_id=983149bd-2777-4f53-8fe7-170382543bd2; _ga=GA1.3.1303491502.1627666987; MAID=qyovJrPdJKPDzEO2VTt4XQ==; MACHINE_LAST_SEEN=2021-07-30T10:57:42.877-07:00; AMCV_1B6E34B85282A0AC0A490D44@AdobeOrg=-1124106680|MCIDTS|18839|MCMID|41767119866068626994379255134661567947|MCAAMLH-1628272667|9|MCAAMB-1628272667|RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y|MCOPTOUT-1627675067s|NONE|MCAID|NONE|vVersion|5.2.0; __ocgt=af6409c64b3db325857198772b6d2a323ddb94c536e3191d97d4dea6b6bea231; HMACCOUNT=C9827C2761154E53; Hm_lvt_7c8d4ea3d0b2ffb2df0daf73aa53c1e0=1649241293,1649493133,1650015087,1650016477; SESSd29ddc6157f6c30cc169dbaa241c00d5=RMeHGSzMU5br0ilSUzSULzuzJrP73D-cp5XEbIgyQ_4; Hm_lpvt_7c8d4ea3d0b2ffb2df0daf73aa53c1e0=1650025758; Drupal.visitor.ascloud_code=0b915eff02ab37f883a0a6d31e78898a',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'Sec-Fetch-Site': 'same-origin',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Dest': 'empty',
+    'Sec-Fetch-User': '?1',
+    'GET': '',
+    'Upgrade-Insecure-Requests': '1',
+}
+
+{'u.njtech.edu.cn':
+    {'/cas':
+        {'JSESSIONID':
+            Cookie(
+                version=0,
+                name='JSESSIONID',
+                value='7EF0034FA2977B45E3E9BD09B78E9DC8.TomcatB',
+                port=None,
+                port_specified=False,
+                domain='u.njtech.edu.cn',
+                domain_specified=False,
+                domain_initial_dot=False,
+                path='/cas',
+                path_specified=True,
+                secure=False,
+                expires=None,
+                discard=True,
+                comment=None,
+                comment_url=None,
+                rest={'HttpOnly': None},
+                rfc2109=False
+                )
+            }
+        }
+    }

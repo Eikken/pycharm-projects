@@ -1,0 +1,170 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="0" http-equiv="expires">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>登录</title>
+<script src="/sd_h5_service/js/common/flex.js?v=1.0"></script>
+<link href="/sd_h5_service/css/login/style.css?v=1.2" rel="stylesheet">
+</head>
+<body>
+<section>
+	<div class="logo"></div>
+	<label class="label"><i class="icon icon_tel"></i>
+		<input id="mobile" name="mobile" type="tel" placeholder="请输入山东移动手机号" maxlength="11"><input id="sendSmsCode" type="button" class="getcode" value="获取验证码" id="recode">
+	</label>
+	<label class="label"><i class="icon icon_code"></i>
+		<input id="password" name="password" type="password" onkeypress="code();" placeholder="请输入短信验证码" maxlength="6">
+	</label>
+	<div class="btn_group">
+		<a href="javascript:;" class="login" id="smsSubmit">登录</a>
+		<!-- <a href="javascript:;" class="Keylogin">一键登录</a> -->
+		<p>移动认证服务由中国移动提供</p>
+	</div>
+</section>
+<div id="popupWindow" class="popup_warp">
+	<div class="popup_cont">
+		<i class="icon_close close"><a href="javascript:;"></a></i>
+		<p id="content"></p>
+		<div class="btn_box mt45"><a href="javascript:;" class="close btn">我知道了</a></div>
+	</div>
+</div>
+<div class="loading_box"><div class="loading"><img src="/sd_h5_service/images/common/loading.gif"><span>请稍后...</span></div>
+<script type="text/javascript" src="/sd_h5_service/js/common/jquery-3.1.1.min.js" charset="utf-8"></script>		
+<script>var Zepto = jQuery</script>
+<script> $.config = {router: false} </script>
+<script type="text/javascript" src="/sd_h5_service/js/common/sm.js" charset="utf-8"></script>
+<script src="/sd_h5_service/js/common/jquery-3.0.0.min.js"></script>
+<script src="/sd_h5_service/js/common/sdinsertcode.js"></script>
+<script type="text/javascript">
+	$(function(){
+		//发送短信登录验证码
+		$("#sendSmsCode").click(function(){
+			var mobile = $("#mobile").val();
+			if("" == mobile || mobile.length != 11){
+				$("#popupWindow").addClass("is-visible");
+				$("#content").html("请输入手机号");
+				return;
+			}
+			$(".loading_box").show();//等待框显示
+			$.post(
+					"/sd_h5_service/login/sendRandCode.do",
+					{"mobile" : mobile},
+					function(data){
+						$(".loading_box").hide();//等待框显示
+						if("1" == data.resultCode){//发送成功
+							//发送短信验证码成功 开始倒计时
+							time();
+						} else {
+							$("#popupWindow").addClass("is-visible");
+							$("#content").html(data.resultMsg);
+						}
+					},"json");
+		});
+		
+		//短信密码登录
+		$("#smsSubmit").click(function(){
+			var mobile = $("#mobile").val();
+			var password = $("#password").val();
+			var platform = getPlatform();
+			
+			if("" == mobile || mobile.length != 11){
+				$("#popupWindow").addClass("is-visible");
+				$("#content").html("请输入手机号");
+				return;
+			}
+			if("" == password || password.length != 6){
+				$("#popupWindow").addClass("is-visible");
+				$("#content").html("请输入短信密码");
+				return;
+			}
+			$(".loading_box").show();//等待框显示
+			Webtrends.multiTrack("WT.event","LOGON","WT.mobile",mobile,"WT.si_n","IQ_login","WT.si_x","21");
+			$.post(
+					"/sd_h5_service/login/randCodeLogin.do",
+					{
+						"mobile" : mobile,
+						"password" : password,
+						"platform" : platform
+					},
+					function(data){
+						$(".loading_box").hide();//等待框显示
+						if("1" == data.resultCode){//登录成功
+							Webtrends.multiTrack("WT.event","LOGON","WT.mobile",mobile,"WT.si_n","IQ_login","WT.si_x","99");
+							location.href = "/sd_h5_service/login/loginToUrl.do";
+						} else {
+							$("#popupWindow").addClass("is-visible");
+							$("#content").html(data.resultMsg);
+							Webtrends.multiTrack("WT.event","LOGON","WT.mobile",mobile,"WT.si_n","IQ_login","WT.si_x","-99","WT.errCode",data.resultMsg);
+						}
+					},"json");
+		});
+		
+		//退出
+		$("#loginOut").click(function(){
+			$.post(
+					"/sd_h5_service/login/loginOut.do",
+					{},
+					function(data){
+						alert("退出成功");
+					},"json");
+		});
+		
+		// 关闭弹窗
+		$(".close").on("click", function() {
+			$(".popup_warp").removeClass("is-visible");
+		});
+	});
+	
+	function getPlatform(){
+		var u = navigator.userAgent;
+		var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+		var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+		
+		var platform = "wap";
+		if(isAndroid){
+			platform = "android";
+		}
+		if(isiOS){
+			platform = "iphone";
+		}
+		return platform;
+	}
+	
+	//获取验证码倒计时
+	var wait = 60;
+	function time() {
+		if (wait == 0) {
+			$("#sendSmsCode").removeAttr("disabled");
+			$("#sendSmsCode").val("获取验证码");
+			wait = 60;
+		} else {
+			$("#sendSmsCode").attr("disabled","disabled");
+			$("#sendSmsCode").val("重新获取(" + wait + ")");
+			wait--;
+			setTimeout(function() {
+				time();
+			},
+			1000);
+		}
+	}
+	
+	function code(){
+		if(event.keyCode<48 || event.keyCode>57){
+			event.returnValue=false;
+		}
+	}
+</script>
+</body>
+</html>
